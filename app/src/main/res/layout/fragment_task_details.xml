@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginBottom="30dp"
+    android:background="@drawable/paleblue_border"
+    android:backgroundTint="#D7E3E4"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".GroupDetailsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/button_fragment_taskDetails_backButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_margin="10dp"
+        android:text="@string/button_fragment_taskList_back_label" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="14dp"
+        android:orientation="horizontal"></LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_fragment_taskDetailTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:paddingLeft="10dp"
+        android:text="Task Title"
+        android:textSize="32sp" />
+
+    <Switch
+        android:id="@+id/switch_fragment_taskDetails_completedSwitch"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/switch_fragment_taskDetails_completed"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView_fragment_taskDetail"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Task Details:"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/textView_fragment_taskDetailBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:background="#86A5AA" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView_fragment_assignedTo"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Assigned to:"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView_fragment_taskAssignedToBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:background="#86A5AA" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView_fragment_assignedTo"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/textView_dueDate_label"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView_fragment_dueDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="#86A5AA" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView_fragment_taskComments"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Comments:"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView_fragment_taskCommentsBox"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:layout_marginRight="20dp"
+            android:background="#86A5AA" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginHorizontal="10dp"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_fragment_taskDetails_assignTask"
+            android:layout_width="143dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:text="@string/button_fragment_teamDetails_confirm_label" />
+
+        <Button
+            android:id="@+id/button_fragment_taskDetails_addComment_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_fragment_teamDetails_addComment_label" />
+    </LinearLayout>
+
+</LinearLayout>

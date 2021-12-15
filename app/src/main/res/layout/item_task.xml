@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout_item_task"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:onClick="onTaskDetailsButtonClick"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView_itemTask_taskName"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_weight="1"
+        android:paddingStart="20dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="20dp"
+        android:text="@string/textView_itemTask_taskName"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView_itemTask_taskDesc"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_weight="1"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="20dp"
+        android:text="@string/textView_itemTask_taskDesc"
+        android:textSize="16sp" />
+
+</LinearLayout>

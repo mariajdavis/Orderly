@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProjectActivity">
+
+    <Button
+        android:id="@+id/button_projects_team_details"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="10dp"
+        android:paddingHorizontal="30dp"
+        android:text="@string/button_projects_team_details"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        app:icon="@drawable/ic_baseline_people_alt_24" />
+
+    <Button
+        android:id="@+id/button_projects_add_task"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:paddingHorizontal="30dp"
+        android:text="@string/button_projects_add_task"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        app:icon="@drawable/ic_baseline_add_task_24" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView_tasks"
+        android:name="com.bcit.orderly.TaskListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="545dp"
+        android:layout_marginTop="20dp"
+        tools:layout="@layout/fragment_task_list" />
+</LinearLayout>

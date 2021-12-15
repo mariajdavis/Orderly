@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TaskListFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout_taskList_isCompletedOrNot"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:background="@color/light_blue"
+        app:tabIndicatorColor="@color/dark_blue"
+        app:tabTextColor="@color/white">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabItem_fragment_taskList_toDo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/ic_baseline_notifications_24"
+            android:text="@string/tabItem_fragment_taskList_toDo" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabItem_fragment_taskList_completed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/ic_baseline_favorite_24"
+            android:text="@string/tabItem_fragment_taskList_completed" />
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_fragment_taskList"
+        android:layout_width="match_parent"
+        android:layout_height="460dp" />
+
+</LinearLayout>

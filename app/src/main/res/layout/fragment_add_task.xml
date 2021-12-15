@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginBottom="20dp"
+    tools:context=".AddTaskFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="505dp"
+            android:background="@drawable/paleblue_border"
+            android:backgroundTint="#D7E3E4"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp">
+
+            <Button
+                android:id="@+id/button_fragment_addTask_backButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginVertical="20dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="@string/button_fragment_taskList_back_label" />
+
+            <TextView
+                android:id="@+id/textView_addTaskFragment_instructions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:text="Task details"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/editText_addTask_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Enter name here"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextMultiLine_addTask_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Enter description here"
+                android:inputType="textMultiLine" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:paddingStart="5dp"
+                android:text="Select due date:"
+                android:textSize="18dp" />
+
+            <DatePicker
+                android:id="@+id/datePicker_addTask_dueDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:headerBackground="@color/dark_blue"
+                android:spinnersShown="true"
+                android:datePickerMode="spinner"
+                android:calendarViewShown="false"
+                android:theme="@style/DialogTheme" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:paddingLeft="5dp"
+                android:text="Assign to user:"
+                android:textSize="18dp" />
+
+            <Spinner
+                android:id="@+id/spinner_addTask_assignedUser"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginBottom="50dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/dark_blue" />
+
+            <Button
+                android:id="@+id/button_fragment_addTask_addTask"
+                android:layout_width="138dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="clip_vertical|center_vertical|end"
+                android:layout_marginBottom="25dp"
+                android:text="@string/button_projects_add_task" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

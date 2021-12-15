@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "241173118734",
+    "project_id": "orderly-5b434",
+    "storage_bucket": "orderly-5b434.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241173118734:android:05d3ec51d916701854a15f",
+        "android_client_info": {
+          "package_name": "com.bcit.orderly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "241173118734-kas9evhk7jnno0l038q6lv6ftgsb340h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJvWAC0dw8sS5qg5Oz-QazpDj3BfRLJu8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "241173118734-kas9evhk7jnno0l038q6lv6ftgsb340h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

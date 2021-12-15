@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Orderly</string>
+    <string name="textView_groups_groupName">Group Name</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="button_groups_addProject">Add Project</string>
+    <string name="button_groups_joinGroup">Join Group</string>
+    <string name="button_groups_groupName">Group Name</string>
+    <string name="button_projects_team_details">Team Details</string>
+    <string name="button_projects_add_task">Add Task</string>
+    <string name="tabItem_fragment_taskList_completed">Completed</string>
+    <string name="tabItem_fragment_taskList_toDo">To Do</string>
+    <string name="main_no_account_yet_question">Don\'t have an account yet?</string>
+    <string name="main_sign_up_button">Sign up</string>
+    <string name="main_account_already_question">Already have an account?</string>
+    <string name="main_log_in_button">Log In</string>
+    <string name="textView_itemTask_taskName">Task Number</string>
+    <string name="textView_itemTask_taskDesc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</string>
+    <string name="button_fragment_taskList_confirm_label">OK</string>
+    <string name="button_fragment_taskList_back_label">Back to tasks</string>
+    <string name="button_fragment_teamDetails_confirm_label">Assign Task</string>
+    <string name="button_fragment_teamDetails_addComment_label">Add Comment</string>
+    <string name="taskName">Task Name: </string>
+    <string name="taskDesc">Task Description: </string>
+    <string name="textView_assignTo_label">Assign to: </string>
+    <string name="textView_dueDate_label">Due date: </string>
+    <string name="switch_fragment_taskDetails_completed">Mark as complete</string>
+    <string name="textView_fragment_group_detail_title">Group Details</string>
+    <string name="textView_fragment_group_details_groupId">Group ID:</string>
+    <string name="placeholder">placeholder text</string>
+</resources>
